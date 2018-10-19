@@ -20,6 +20,7 @@
     "start": "react-scripts-ts-antd start",
     "build": "react-scripts-ts-antd build",
     "test": "react-scripts-ts-antd test --env=jsdom",
-    "eject": "react-scripts-ts-antd eject"
+    "eject": "react-scripts-ts-antd eject",
+    "temp": "node template"
   }
 }

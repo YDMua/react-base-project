@@ -36,7 +36,7 @@ const lowerCase = str => {
   return string
 }
 const indexTep = `import * as React from 'react'
-import {IProps, IState} from './type'
+import {IProps} from './type'
 import './style.scss'; 
 class ${titleCase(fileName)} extends React.Component<IProps> {
   constructor(props) {

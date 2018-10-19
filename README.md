@@ -5,7 +5,7 @@
 ### 1.克隆项目
 
 ```
-	git clone https://github.com/YDMua/yid-react-project.git
+git clone https://github.com/YDMua/yid-react-project.git
 ```
 
 ### 2.安装依赖

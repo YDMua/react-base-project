@@ -1,5 +1,5 @@
-import Home from '../containers/views/Home'
-import Login from 'src/containers/views/Login'
+import Home from '@views/Home'
+import Login from '@views/Login'
 
 export const routers = [
   {

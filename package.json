@@ -1,6 +1,7 @@
 {
   "name": "yid-react-project",
   "version": "0.1.0",
+  "author": "小蚁",
   "private": true,
   "dependencies": {
     "@types/jest": "^23.3.5",

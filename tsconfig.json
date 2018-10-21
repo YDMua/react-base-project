@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "outDir": "build/dist",
     "module": "esnext",
     "target": "es5",
@@ -9,7 +8,6 @@
     "allowJs": true,
     "jsx": "react",
     "moduleResolution": "node",
-    // "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -18,7 +16,16 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "rootDirs": ["./src"],
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+      "@components/*": ["components/*"],
+      "@shared/*": ["containers/shared/*"],
+      "@views/*": ["containers/views/*"],
+      "@images/*": ["assets/images/*"]
+    }
   },
   "exclude": [
     "node_modules",

@@ -1,22 +1,22 @@
 import { Rate } from 'antd'
 import * as React from 'react'
-import './style.scss'
-
+import { Home, HomeHeader, HomeIntro } from './style'
 import logo from '@images/logo.svg'
-
+// import './style.scss'
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
+      <Home>
+        <HomeHeader>
+          <img className="home-header-logo" src={logo} alt="logo" />
+          <h2 className="home-header-title">Welcome to React</h2>
+        </HomeHeader>
+
+        <HomeIntro>
           To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        </HomeIntro>
         <Rate character="6" />
-      </div>
+      </Home>
     )
   }
 }

@@ -1,11 +1,9 @@
 import * as React from 'react'
 import { Form, Icon, Input, Button, message } from 'antd'
 import { LoginPage, LoginPageWrap } from './style'
-// import md5 from 'blueimp-md5'
 import { IProps } from './type'
-import loginBg from '@images/login-bg.png'
-// import { login } from '@services/api'
 import { observer, inject } from 'mobx-react'
+import loginBg from '@images/login-bg.png'
 
 const FormItem = Form.Item
 @inject('globalStore')
@@ -17,17 +15,10 @@ class Login extends React.Component<IProps> {
       this.props.form.validateFields(async (err, values) => {
         if (!err) {
           console.log('Received values of form: ', values)
-          // const data = await login({
-          //   staff_name: values.userName,
-          //   password: md5(values.password),
-          //   project: 'yidejia'
-          // })
-          // console.log('data', data)
-          // message.success('Login successful')
           if (values.userName === 'yidong' && values.password === '123123') {
             message.success('Login successful')
-            this.props.globalStore.changeTest({
-              user_name: '我已经登录了',
+            this.props.globalStore.changeUserInfo({
+              user_name: '小蚁',
               age: 18
             })
             setTimeout(() => {

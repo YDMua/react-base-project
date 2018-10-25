@@ -7,7 +7,10 @@ export const initHttp = new Http({
   prefix: config.prefix
 })
 
-const { post } = initHttp.http
+// const { get, post } = initHttp.http
 
-export const login = (data: object) =>
-  post('api/staff/login', data, { shouldAddToken: false })
+// export const getUserInfo = (data: object) =>
+//   get('xxxx', data, { shouldAddToken: false })
+
+// export const login = (data: object) =>
+//   post('xxxx', data, { shouldAddToken: false })

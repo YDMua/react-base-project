@@ -6,13 +6,12 @@ export class GlobalStore {
     user_name: string
     age: number
   } = {
-    user_name: '',
-    age: 18
+    user_name: '游客',
+    age: 0
   }
 
   @action
-  changeTest = data => {
-    console.log('进来了', data)
+  changeUserInfo = data => {
     this.userInfo = data
   }
 }

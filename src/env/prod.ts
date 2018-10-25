@@ -1,7 +1,7 @@
 export default {
   env: 'prod',
-  baseUrl: 'https://wxa.yidejia.com',
+  baseUrl: 'xxx',
   restFul: false,
-  prefix: 'index.php/',
-  proKey: 'fw_wxms'
+  prefix: 'xxx',
+  proKey: 'xxx'
 }

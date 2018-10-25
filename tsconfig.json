@@ -11,8 +11,8 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
@@ -24,7 +24,9 @@
       "@components/*": ["components/*"],
       "@shared/*": ["containers/shared/*"],
       "@views/*": ["containers/views/*"],
-      "@images/*": ["assets/images/*"]
+      "@images/*": ["assets/images/*"],
+      "@services/*": ["services/*"],
+      "@util/*": ["util/*"]
     }
   },
   "exclude": [

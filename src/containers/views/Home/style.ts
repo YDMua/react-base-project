@@ -9,7 +9,7 @@ const homeLogoSpin = keyframes`
   }
 `
 
-export const Home = styled.div`
+export const HomeWrap = styled.div`
   text-align: center;
 `
 export const HomeHeader = styled.div`

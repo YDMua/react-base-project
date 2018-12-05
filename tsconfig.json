@@ -26,7 +26,8 @@
       "@views/*": ["containers/views/*"],
       "@images/*": ["assets/images/*"],
       "@services/*": ["services/*"],
-      "@util/*": ["util/*"]
+      "@util/*": ["util/*"],
+      "@locales/*": ["locales/*"]
     }
   },
   "exclude": [

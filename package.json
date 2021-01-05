@@ -16,7 +16,7 @@
     "@types/react-router-dom": "^4.3.1",
     "@types/styled-components": "^4.0.1",
     "antd": "^3.10.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "blueimp-md5": "^2.10.0",
     "js-cookie": "^2.2.0",
     "mobx": "^5.5.2",

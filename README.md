@@ -37,3 +37,11 @@ npm run temp components/Test
 ### 疑惑，求协助
 
 想在不暴露webpack配置的情况下，使用react-hot-loader实现局部刷新的效果，对config-overrides.js的配置不是很清楚，有兴趣尝试或者已经实现的小伙伴，希望可以分享下。
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
